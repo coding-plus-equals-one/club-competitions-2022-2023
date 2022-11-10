@@ -2,6 +2,8 @@
 
 Welcome to the first coding += 1 mock competition! Try to solve all the problems below in the allotted time. There are no deductions or extra points for memory or time complexity. 
 
+Run all of your code in `main.py`. Test your code by uncommenting the test functions in `main.py`. Let an officer know when you have finished each problem.
+
 ## Way Too Long Words
 ### Instructions
 Sometimes some words like `"localization"` or `"internationalization"` are so long that writing them many times in one text is quite tiresome.
