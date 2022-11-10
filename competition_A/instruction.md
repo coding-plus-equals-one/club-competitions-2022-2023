@@ -76,14 +76,13 @@ public static int arrivalGeneral(int[] soldiers) {
 ```
 Input: [33, 44, 11, 22]
 Output: 2
+Explanation: The colonel will need to swap the first and second soldier and then the third and fourth soldier. That will take 2 seconds. The resulting position of the soldiers is (44, 33, 22, 11).
 ```
-The colonel will need to swap the first and second soldier and then the third and fourth soldier. That will take 2 seconds. The resulting position of the soldiers is (44, 33, 22, 11).
 
 ```
 Input: [10, 10, 58, 31, 63, 40, 76]
 Output: 10
-```
-The colonel may swap the soldiers in the following sequence:
+Explanation: The colonel may swap the soldiers in the following sequence.
 1. (10, 10, 58, 31, 63, 40, 76)
 2. (10, 58, 10, 31, 63, 40, 76)
 3. (10, 58, 10, 31, 63, 76, 40)
@@ -95,6 +94,7 @@ The colonel may swap the soldiers in the following sequence:
 9. (10, 76, 58, 31, 63, 10, 40)
 10. (76, 10, 58, 31, 63, 10, 40)
 11. (76, 10, 58, 31, 63, 40, 10)
+```
 
 ## Add Odd or Subtract Even
 ### Instructions
@@ -122,25 +122,29 @@ public static int addOrSubtract(int a, int b) {
 ```
 Input: 2, 3
 Output: 1
+Explanation: You can just add 1.
 ```
-You can just add 1.
+
 ```
 Input: 10, 10
 Output: 0
+Explanation: You don't need to do anything.
 ```
-You don't need to do anything.
+
 ```
 Input: 2, 4
 Output: 2
+Explanation: You can add 1 two times.
 ```
-You can add 1 two times.
+
 ```
 Input: 7, 4
 Output: 2
+Explanation: You can subtract 4 and add 1.
 ```
-You can subtract 4 and add 1.
+
 ```
 Input: 9, 3
 Output: 1
+Explanation: You can just subtract 6.
 ```
-You can just subtract 6.
