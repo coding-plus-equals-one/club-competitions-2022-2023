@@ -1,3 +1,5 @@
+# MAKE SURE THAT test_cases.py IS IN THE SAME DIRECTORY
+# Alternatively, copy and paste code from test_cases.py into this file
 from test_cases import *
 
 # WRITE CODE HERE

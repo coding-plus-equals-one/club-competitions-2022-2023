@@ -2,7 +2,7 @@
 
 Welcome to the first coding += 1 mock competition! Try to solve all the problems below in the allotted time. There are no deductions or extra points for memory or time complexity. 
 
-Run all of your code in `main.py`. Test your code by uncommenting the test functions in `main.py`. Let an officer know when you have finished each problem.
+Run and test all of your code in `main.py` or `main.java`. You can also use different programming language, but we don't have automatic tests supported for languages other than Python or Java yet. Let an officer know when you have finished each problem.
 
 ## Way Too Long Words
 ### Instructions
@@ -14,13 +14,20 @@ This abbreviation is made like this: we write down the first and the last letter
 
 Thus, `"localization"` will be spelt as `"l10n"`, and `"internationalization"` will be spelt as `"i18n"`.
 
-In the function `too_long`, take a string input `word` and return the replaced word. All too long words should be replaced by the abbreviation and the words that are not too long should not undergo any changes.
+In the function `too_long` (or `tooLong`), take a string input `word` and return the replaced word. All too long words should be replaced by the abbreviation and the words that are not too long should not undergo any changes.
 
 ``` python
 def too_long(word):
+    # code here
     pass
 ```
 
+``` java
+public static String tooLong(String word) {
+    // code here
+    return "";
+}
+```
 ### Examples
 
 ```
@@ -50,11 +57,19 @@ For example, the general considers the sequence of heights `(4, 3, 4, 2, 1, 1)` 
 
 Within one second, the colonel can swap any two neighboring soldiers. Help him count the minimum time needed to form a line-up which the general will consider correct.
 
-In the function `arrival_general`, take the list input `soldiers`, which represents the values of the soldiers' heights in their original line-up. Return the minimum number of seconds the colonel will need to form a line-up the general will like.
+In the function `arrival_general` (or `arrivalGeneral`), take the list input `soldiers`, which represents the values of the soldiers' heights in their original line-up. Return the minimum number of seconds the colonel will need to form a line-up the general will like.
 
 ``` python
 def arrival_general(soldiers):
+    # code here
     pass
+```
+
+``` java
+public static int arrivalGeneral(int[] soldiers) {
+        // code here
+        return 99999;
+    }
 ```
 
 ### Examples
@@ -90,13 +105,19 @@ You are given two positive integers *a* and *b*. In one move, you can change *a*
 
 Your task is to find the minimum number of moves required to obtain b from a. It is guaranteed that this is always possible.
 
-In the function `add_or_subtract`, take the inputs `a` and `b` and return the minimum number of moves needed to get from `a` to `b`.
+In the function `add_or_subtract` (or `addOrSubtract`), take the integer inputs `a` and `b` and return the minimum number of moves needed to get from `a` to `b`.
 
 ``` python
 def add_or_subtract(a, b):
     pass
 ```
 
+``` java
+public static int addOrSubtract(int a, int b) {
+    // code here
+    return 99999;
+}
+```
 ### Test Cases
 ```
 Input: 2, 3
