@@ -34,6 +34,8 @@ add_or_subtract_tests = {
     (3, 24): 1,
 }
 
+water_jug_tests = {(34, 5, 6): True, (2, 6, 5): False, (1, 1, 12): False}
+
 
 def test_too_long(funct):
     for i in too_long_tests:
@@ -46,7 +48,7 @@ def test_too_long(funct):
 
 def test_arrival_general(funct):
     for i in arrival_general_tests:
-        if funct(i) != arrival_general_tests[i]:
+        if funct(list(i)) != arrival_general_tests[i]:
             print(f"FAILED ON {list(i)}.")
             return
 

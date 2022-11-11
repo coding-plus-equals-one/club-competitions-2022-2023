@@ -21,6 +21,11 @@ public class Main {
         return 99999;
     }
 
+    public boolean waterJug(int jug1, int jug2, int target) {
+        // code here
+        return false;
+    }
+
     public static void tooLongCheck()
     {
         HashMap<String, Integer> ans1 = new HashMap<String, Integer>();

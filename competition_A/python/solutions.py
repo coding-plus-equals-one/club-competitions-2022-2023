@@ -1,4 +1,7 @@
 def canMeasureWater(jug1Capacity: int, jug2Capacity: int, targetCapacity: int) -> bool:
+    if jug1Capacity + jug2Capacity < targetCapacity:
+        return False
+
     divisors = list(set([jug1Capacity, jug2Capacity]))
 
     def get_mod(a, b):
