@@ -3,7 +3,7 @@ For advanced students who want a challenge. Ronan says that you might not be abl
 
 ## Water and Jug
 ### Instructions
-You are given two jugs with capacities `jug1` and `jug2`. There is an infinite amount of water supply available. Determine whether it is possible to measure exactly `target` liters using these two jugs. For `target` liters of water to be measurable, you must have `target` liters of water contained within one or both buckets by the end.
+You are given two jugs with capacities `jug1` and `jug2`. There is an infinite amount of water supply available. Determine whether it is possible to measure exactly `target` liters using these two jugs. For `target` liters of water to be measurable, you must have `target` liters of water total contained within one or both buckets by the end.
 
 Operations allowed:
 - Fill any of the jugs completely up to their capacity.
