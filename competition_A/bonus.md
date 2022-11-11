@@ -36,3 +36,5 @@ Output: false
 Input: jub1 = 2, jub2 = 6, target = 5
 Output: true
 ```
+
+Check out the test case [here](https://leetcode.com/problems/water-and-jug-problem).
