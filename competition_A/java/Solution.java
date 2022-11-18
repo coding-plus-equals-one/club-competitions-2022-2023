@@ -1,4 +1,6 @@
 import java.util.HashMap;
+import java.util.ArrayList;
+
 public class Solution {
     public static void main(String[] args) {
         tooLongCheck();
@@ -44,9 +46,39 @@ public class Solution {
         }
     }
 
-    public boolean waterJug(int jug1, int jug2, int target) {
-        // code here
+    // START OF WATERJUG SOLUTION
+    ArrayList<Integer> divisors = new ArrayList<Integer>();
+
+    public boolean canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity)
+    {
+        if (jug1Capacity + jug2Capacity < targetCapacity)
+            return false;
+        divisors.add(jug1Capacity);
+        divisors.add(jug2Capacity);
+
+        get_mod(jug1Capacity, jug2Capacity);
+
+        for (int i : divisors)
+        {
+            if (targetCapacity%i == 0)
+                return true;
+        }
         return false;
+    }
+    public void get_mod(int a, int b)
+    {
+        int value;
+        if (a>b)
+            value = a % b;
+        else
+            value = b % a;
+        if (value != 0 && !divisors.contains(value))
+        {
+            divisors.add(value);
+            get_mod(value, a);
+            get_mod(value, b);
+        }
+
     }
 
     public static void tooLongCheck()
