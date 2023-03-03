@@ -10,12 +10,11 @@ def numlistfunct1(funct):
 def test_factorial_checker1(factor):
     pass
 
-def word_num_funct1(words):
+def word_num_funct1(a, b):
     pass
 
 
 # UNCOMMENT TO TEST YOUR CODE
-# numlistfunct(numlistfunct1):
-# test_factorial_checker(test_factorial_checker1):
-# word_num_funct(word_num_funct1):
-
+# numlistfunct(numlistfunct1)
+# test_factorial_checker(test_factorial_checker1)
+# word_num_funct(word_num_funct1)
